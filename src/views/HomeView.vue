@@ -8,6 +8,7 @@
         <img id="skrift" src="../assets/STEPHANIE.png" alt="">
     </div>
 
+    
     <div class="item3">
       <div class="sidenav">
         <ul>
