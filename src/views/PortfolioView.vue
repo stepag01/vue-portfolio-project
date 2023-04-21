@@ -1,20 +1,20 @@
 <template>
 <RouterLink to='/'><img class="logo" src="../assets/logo.png"></RouterLink>
    
-<div class="sm:flex-col sm:h-full sm:w-full sm:ml-32 sm:mb-10 md:flex-row md:ml-0 md:mb-6 lg:flex-row lg:ml-0 flex justify-center flex space-x-10 h-96 pt-6 mb-20">
+<div class="flex-col sm:flex-col sm:h-full sm:w-full sm:ml-32 sm:mb-10 md:flex-row md:ml-0 md:mb-6 lg:flex-row lg:ml-0 flex justify-center flex sm:space-x-8 pt-6 p-10 mb-20">
     <!--Card 1-->  
     <div
         class="block max-w-sm sm:max-w-xs">
         <img
-            class="mb-4 sm:ml-8 lg:ml-0 sm:pt-10 md:ml-0"
+            class="mb-4 sm:ml-0 lg:ml-0 sm:pt-10 md:ml-0"
             src="../assets/label.jpg"
             alt="" />
-        <div class="p-4">
+        <div class="p-2">
         <h5
             class="text-xl font-regular leading-tight text-black flex justify-center font-sans sm:ml-14 sm:mt-0 md:ml-0 lg:ml-0 mb-4">
             GRAFISK DESIGN
         </h5>
-        <div class="flex justify-center sm:ml-14 md:ml-0 lg:ml-0">
+        <div class="flex justify-center sm:ml-14 md:ml-0 lg:ml-0 pb-20">
             <button
                 type="button"    
                 class="rounded-full mx-auto inline-block bg-stone-400 px-4 pt-1.5 pb-2 text-white text-sm sm:text-lg md:text-sm lg:text-sm font-bold uppercase leading-normal transition duration-150 ease-in-out hover:bg-stone-600 hover:text-none font-sans"
@@ -23,22 +23,22 @@
                 <RouterLink to='graphicdesign'>SE MERE</RouterLink>
             </button>
         </div>
-     </div>
+        </div>
     </div>
 
     <!--Card 2-->  
     <div
-        class="block max-w-sm sm:max-w-xs">
+        class="block max-w-sm m-4 sm:max-w-xs sm:m-0">
         <img
             class="mb-4 sm:ml-0 lg:ml-0 sm:pt-10 md:ml-0"
             src="../assets/furni.jpg"
             alt="" />
-        <div class="p-4">
+        <div class="p-2">
         <h5
             class="text-xl font-regular leading-tight text-black flex justify-center font-sans sm:ml-0 sm:mt-0 md:ml-0 lg:ml-0 mb-4">
             WEB 
         </h5>
-        <div class="flex justify-center sm:ml-0 md:ml-0 lg:ml-0">
+        <div class="flex justify-center sm:ml-0 md:ml-0 lg:ml-0 pb-20">
             <button
                 type="button"    
                 class="rounded-full mx-auto inline-block bg-stone-400 px-4 pt-1.5 pb-2 text-white text-sm sm:text-lg md:text-sm lg:text-sm font-bold uppercase leading-normal transition duration-150 ease-in-out hover:bg-stone-600 hover:text-none font-sans"
@@ -59,7 +59,7 @@
             class="mb-4 sm:mr-5 md:ml-0 lg:ml-0 sm:pt-10"
             src="../assets/kris.jpg"
             alt="" />
-        <div class="p-4">
+        <div class="p-2">
         <h5
             class="text-xl font-regular leading-tight text-black flex justify-center font-sans sm:ml-0 sm:mt-0 md:ml-0 lg:ml-0 mb-4">
             FOTOGRAFI
@@ -115,7 +115,6 @@ function goBack() {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-left: 40px;
-  margin-top: 40px;
   margin-bottom: 20px;
   border-bottom: solid #4c392d;
 }
@@ -127,13 +126,30 @@ body {
 .logo {
     height: 50px;
     margin: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 
 
 
-@media (min-width: 1024px) {
 
+@media (width < 640px) {
+.logo {
+    height: 30px;
+}
+}
+
+
+@media (min-width: 768px) {
+.logo {
+    height: 40px;
+}
+}
+
+
+@media (min-width: 944px) {
+.logo {
+    height: 50px;
+}
 }
 </style>

@@ -102,12 +102,12 @@ body {
 
 @media (width < 640px) {
 .logo {
-  height: 40px;
+  height: 30px;
 }
 
 .container8 {
-    height: 1400px;
-    margin-top: 40px;
+    height: 800px;
+    margin-top: 25px;
 }
 
 .inner-box6 {
@@ -116,21 +116,21 @@ body {
 }
 
 #vandhaverne1 {
-    height: 300px;
+    height: 180px;
 }
 
 #vandhaverne2 {
-    height: 300px;
+    height: 200px;
     margin-top: 20px;
 }
 
 #whisky1 {
-    height: 250px;
+    height: 150px;
     margin-top: 20px;
 }
 
 #whisky2 {
-    height: 300px;
+    height: 180px;
     margin-top: 20px;
 }
 }
@@ -139,7 +139,7 @@ body {
 
 @media (min-width: 768px) {
 .logo {
-  height: 45px;
+  height: 40px;
 }
 
 .container8 {

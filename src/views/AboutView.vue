@@ -98,7 +98,7 @@ body {
   width: 60%;
   padding-left: 20px;
   padding-right: 20px;
-  text-align:center;
+  text-align: center;
   margin-left: 40px;
   margin-right: 15px;
   border-left: solid 7px;
@@ -147,65 +147,64 @@ h3 {
 
 @media (width < 640px) {
 .logo {
-  height: 35px;
+  height: 30px;
 }
 
 .container9 {
-  height: 850px;
+  height: 800px;
   margin-top: 20px;
   width: auto;
 }
 .item9 {
-  height: 500px;
+  height: 750px;
+  width: 100%;
   display: grid;
   margin-right: 40px;
 
 }
 .box-1 {
-  height: 400px;
-  width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 450px;
+  width: 80%;
 }
 
 .box-2 {
-  height: 400px;
+  height: 300px;
   width: 100%;
-  margin-left: 15px;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 h3 {
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-top: 25px;
 }
 
 #mig {
-  height: 400px;
+  height: 250px;
   margin-top: 20px;
 }
 
 .cv {
-  padding-bottom: 20px;
-  font-size: 40px;
+  padding-bottom: 10px;
 }
 
 .video-cv {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 }
+
 
 
 
 @media (min-width: 768px) {
 .logo {
-  height: 45px;
+  height: 40px;
 }
-
 .container9 {
   height: 850px;
   margin-top: 20px;
@@ -215,7 +214,6 @@ h3 {
   height: 500px;
   display: grid;
   margin-right: 40px;
-
 }
 .box-1 {
   height: 400px;
@@ -223,7 +221,6 @@ h3 {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .box-2 {
   height: 400px;
   width: 100%;
@@ -237,7 +234,7 @@ p {
 h3 {
   font-size: 25px;
   padding-bottom: 20px;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 
 #mig {
@@ -292,7 +289,7 @@ p {
 h3 {
   font-size: 25px;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #mig {

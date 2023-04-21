@@ -79,4 +79,26 @@ body {
   height: 50px;
   margin: 15px;
 }
+
+
+
+@media (width < 640px) {
+.logo {
+    height: 30px;
+}
+}
+
+
+@media (min-width: 768px) {
+.logo {
+    height: 40px;
+}
+}
+
+
+@media (min-width: 922px) {
+.logo {
+    height: 50px;
+}
+}
 </style>

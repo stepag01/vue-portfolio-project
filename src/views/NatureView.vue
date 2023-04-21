@@ -95,7 +95,7 @@ body {
 .inner-box7 {
     height: 600px;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #sunset {
@@ -108,39 +108,41 @@ body {
 
 @media (width < 640px) {
 .logo {
-  height: 40px;
+  height: 30px;
 }
 
 .container7 {
-    height: 1150px;
+    height: 880px;
+    margin-top: 25px;
 }
 .inner-box5 {
-    height: 350px;
+    height: 220px;
     width: 100%;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 #bw {
-    height: 320px;
+    height: 220px;
 }
 
 .inner-box6 {
-    height: 300px;
+    height: 210px;
     width: 100%;
+    margin-top: 20px;
 }
 
 #beach {
-    height: 300px;
+    height: 207px;
 }
 
 .inner-box7 {
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 
 #sunset {
-    height: 400px;
+    height: 350px;
 }
 }
 
@@ -148,17 +150,17 @@ body {
 
 @media (min-width: 768px) {
 .logo {
-  height: 45px;
+  height: 40px;
 }
 
 .container7 {
-    height: 1250px;
+    height: 1260px;
 }
 .inner-box5 {
-    height: 400px;
+    height: 350px;
     width: 100%;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 0px;
+    margin-bottom: 40px;
 }
 
 #bw {
@@ -166,17 +168,19 @@ body {
 }
 
 .inner-box6 {
-    height: 330px;
+    height: 360px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 #beach {
-    height: 330px;
+    height: 360px;
 }
 
 .inner-box7 {
     height: 450px;
     width: 100%;
+    margin-top: 0px;
 }
 
 #sunset {

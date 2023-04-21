@@ -2,21 +2,21 @@
 <RouterLink to="/"><img class="logo" src="../assets/logo.png"></RouterLink>
 
   <!--Card 1-->
-<div class="sm:flex-col sm:ml-0 md:flex-col lg:flex-row lg:ml-0 flex justify-center flex space-x-8 mt-20">
-  <div class="flex justify-center mb-20 md:ml-0">
+<div class="flex-col md:flex-col lg:flex-row flex justify-center mt-20">
+  <div class="flex justify-center md:ml-0">
     <div
-      class="block max-w-sm sm:ml-8">
+      class="block max-w-sm lg:mr-6">
       <img
-        class="mb-2"
+        class=""
         src="../assets/krisser.jpg"
         alt="" />
       
         <div class="p-4">
         <h5
-          class="mb-4 text-xl font-regular leading-tight text-black flex justify-center font-sans">
+          class="mb-6 text-xl font-regular leading-tight text-black flex justify-center font-sans">
           PORTRÆTTER
         </h5>
-        <div class="flex justify-center">
+        <div class="flex justify-center pb-16">
           <button
             type="button"
             class="rounded-full mx-auto inline-block bg-stone-400 px-4 pt-1.5 pb-2 text-white text-sm sm:text-xl lg:text-sm font-bold uppercase leading-normal transition duration-150 ease-in-out hover:bg-stone-600 font-sans"
@@ -30,20 +30,20 @@
   </div>
 
   <!--Card 2-->
-  <div class="flex justify-center mb-20 sm:mr-10 md:ml-0">
+  <div class="flex justify-center md:ml-0">
     <div
-      class="block max-w-sm">
+      class="block max-w-sm lg:mr-6">
         <img
-          class="mb-2"
+          class=""
           src="../assets/havet.jpg"
           alt="" />
 
       <div class="p-4">
         <h5
-          class="mb-4 text-xl font-regular leading-tight text-black flex justify-center">
+          class="mb-6 text-xl font-regular leading-tight text-black flex justify-center">
           NATUR 
         </h5>
-        <div class="flex justify-center">
+        <div class="flex justify-center pb-16">
           <button
             type="button"
             class="rounded-full mx-auto inline-block bg-stone-400 px-4 pt-1.5 pb-2 text-white text-sm sm:text-xl lg:text-sm font-bold uppercase leading-normal transition duration-150 ease-in-out hover:bg-stone-600 font-sans"
@@ -61,16 +61,16 @@
     <div
       class="block max-w-sm">
         <img
-          class="mb-2"
+          class=""
           src="../assets/haverne.jpg"
           alt="" />
 
       <div class="p-4">
         <h5
-          class="mb-4 text-xl font-regular leading-tight text-black flex justify-center">
+          class="mb-6 text-xl font-regular leading-tight text-black flex justify-center">
           ARKITEKTUR
         </h5>
-        <div class="flex justify-center">
+        <div class="flex justify-center pb-20">
           <button
             type="button"
             class="rounded-full mx-auto inline-block bg-stone-400 px-4 pt-1.5 pb-2 text-white text-sm sm:text-xl lg:text-sm font-bold uppercase leading-normal transition duration-150 ease-in-out hover:bg-stone-600 font-sans"
@@ -116,5 +116,27 @@ body {
 .logo {
   height: 50px;
   margin: 15px;
+}
+
+
+
+@media (width < 640px) {
+.logo {
+  height: 30px;
+}
+}
+
+
+@media (min-width: 768px) {
+.logo {
+  height: 40px;
+}
+}
+
+
+@media (min-width: 922px) {
+.logo {
+  height: 50px;
+}
 }
 </style>

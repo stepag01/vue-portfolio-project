@@ -123,48 +123,49 @@ body {
 
 @media (width < 640px) {
 .logo {
-  height: 35px;
+  height: 30px;
 }
 
 .container5 {
-    height: 550px;
+    height: 420px;
     margin-top: 20px
 }
 .inner-box1 {
-    height: 450px;
+    height: 420px;
     display: grid;
 }
 
 #k1 {
-    height: 250px;
-    margin-bottom: 30px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 #k2 {
-    height: 250px;
+    height: 200px;
 }
 
 .container6 {
     display: grid;
-    height: 900px;
+    height: 605px;
+    margin-top: 25px;
 }
 .inner-box2 {
-    height: 400px;
+    height: 302px;
     width: 100%;
 }
 
 #k3 {
-    height: 400px;
+    height: 302px;
 }
 
 .inner-box3 {
-    height: 400px;
-    margin-bottom: 30px;
+    height: 259px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
 #k4 {
-    height: 380px;
+    height: 259px;
 }
 }
 

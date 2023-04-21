@@ -4,28 +4,27 @@
   <div class="item1">
     <RouterLink to="/"><img class="logo" src="../assets/logo.png"></RouterLink>
 
-    <div class="item2">
-        <img id="skrift" src="../assets/STEPHANIE.png" alt="">
+  <div class="item2">
+    <img id="skrift" src="../assets/STEPHANIE.png" alt="">
+  </div>
+
+  <div class="item3">
+    <div class="sidenav">
+      <ul>
+        <RouterLink to="/portfolio">
+          PORTEFØLJE
+        </RouterLink>
+
+        <RouterLink to="/about">
+          OM
+        </RouterLink>
+
+        <RouterLink to="/contact">
+          KONTAKT
+        </RouterLink>
+      </ul>
     </div>
-
-    
-    <div class="item3">
-      <div class="sidenav">
-        <ul>
-          <RouterLink to="/portfolio">
-            PORTEFØLJE
-          </RouterLink>
-
-          <RouterLink to="/about">
-            OM
-          </RouterLink>
-
-          <RouterLink to="/contact">
-            KONTAKT
-          </RouterLink>
-        </ul>
-      </div>
-    </div>
+  </div>
   </div>
 </div> 
 </main>
@@ -105,7 +104,7 @@ a:hover {
 
 @media (width < 640px) {
 .logo {
-  height: 40px;
+  height: 30px;
 }
 
 .item1 {
@@ -116,14 +115,14 @@ a:hover {
 
 .item2 {
   height: 250px;
-  width: 300px;
+  width: 250px;
   margin-left: 10px;
   margin-top: 40px;
 }
 
 #skrift {
-  height: 180px;
-  padding-top: 40;
+  height: 120px;
+  padding-top: 0;
   padding-top: 40px;
 }
 
@@ -142,34 +141,36 @@ ul {
 
 @media (min-width: 768px) {
 .logo {
-  height: 45px;
+  height: 40px;
 }
 
 .item1 {
   margin: 15px;
-  width: 200px;
-  height: 420px;
+  width: 250px;
+  height: 700px;
 }
 
 .item2 {
   height: 200px;
-  width: 330px;
+  width: 400px;
   margin-left: 10px;
   margin-top: 40px;
 }
 
 #skrift {
-  height: 150px;
+  height: 200px;
+  padding-top: 40px;
 }
 
 .item3 {
-  height: 100px;
-  width: 150px;
-  margin-left: 10px;
+  height: 300px;
+  width: 200px;
+  margin-left: 40px;
+  align-items: end;
 }
 
 ul {
-  font-size: 20px;
+  font-size: 30px;
 }
 }
 

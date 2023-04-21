@@ -76,9 +76,10 @@ body {
 
 
 
+
 @media (width < 640px) {
-    .logo {
-  height: 40px;
+.logo {
+  height: 30px;
 }
 
 .container10 {
@@ -101,6 +102,65 @@ body {
 #label2 {
     height: 350px;
     margin-left: 0px;
+}
+}
+
+
+
+
+@media (min-width: 768px) {
+.logo {
+    height: 40px;
+}
+
+.container10 {
+    height: 900px;
+    margin-top: 20px;
+}
+.boks1 {
+    height: 850px;
+    display: grid;
+}
+
+#label1 {
+    height: 400px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+#label2 {
+    height: 400px;
+    margin-left: 0px;
+}
+}
+
+
+
+@media (min-width: 922px) {
+    .logo {
+  height: 50px;
+  margin: 15px;
+}
+
+.container10 {
+    height: 450px;
+    margin-top: 20px;
+}
+.boks1 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#label1 {
+    height: 400px;
+    margin-right: 40px;
+}
+
+#label2 {
+    height: 400px;
+    margin-left: 40px;
 }
 }
 </style>

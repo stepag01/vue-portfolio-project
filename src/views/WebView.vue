@@ -1,16 +1,16 @@
 <template>
 <RouterLink to="portfolio"><img class="logo" src="../assets/logo.png"></RouterLink>
   
-  <div class="sm:flex-col sm:ml-0 md:flex-col md:ml-0 lg:flex-row lg:ml-0 flex justify-center flex space-x-8 mt-20">
+  <div class="flex-col sm:ml-0 md:flex-col md:ml-0 lg:flex-row lg:ml-0 flex justify-center mt-10">
     <div class="flex justify-center mb-20">
       <div
-        class="block max-w-sm sm:mr-6 sm:mt-5">
+        class="block max-w-sm sm:mr-14 sm:mt-5">
           <img
             class="mb-4 sm:ml-4"
             src="../assets/WEBSITE.jpg"
             alt="" />
 
-        <div class="p-4">
+        <div class="p-0">
           <h5
             class="sm:ml-8 mb-4 text-xl font-regular leading-tight text-black flex justify-center">
             WEBSITES
@@ -37,7 +37,7 @@
             src="../assets/XDDESIGN.jpg"
             alt="" />
 
-        <div class="p-4">
+        <div class="p-0">
           <h5
             class="mb-4 text-xl font-regular leading-tight text-black flex justify-center">
             WEBDESIGN
@@ -87,5 +87,27 @@ body {
 .logo {
   height: 50px;
   margin: 15px;
+}
+
+
+
+@media (width < 640px) {
+.logo {
+  height: 30px;
+}
+}
+
+
+@media (min-width: 768px) {
+.logo {
+  height: 40px;
+}
+}
+
+
+@media (min-width: 922px) {
+.logo {
+  height: 50px;
+}
 }
 </style>

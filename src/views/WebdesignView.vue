@@ -46,7 +46,6 @@ function goBack() {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-left: 40px;
-  margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: solid #4c392d;
 }
@@ -61,7 +60,7 @@ body {
 }
 
 .container15 {
-  height: 1200px;
+  height: 1000px;
   width: auto;
 }
 .text-box {
@@ -94,7 +93,7 @@ h5 {
 
 @media (width < 640px) {
 .logo {
-  height: 35px;
+  height: 30px;
 }
 .text-box {
   height: 50px;
@@ -116,7 +115,7 @@ h5 {
 
 @media (min-width: 768px) {
 .logo {
-  height: 45px;
+  height: 40px;
 }
 
 .container15 {

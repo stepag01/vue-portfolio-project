@@ -86,7 +86,7 @@ body {
 
 @media (max-width: 640px) {
 .logo {
-  height: 35px;
+  height: 30px;
 }
 
 .container11{
@@ -122,33 +122,33 @@ body {
 
 @media (min-width: 768px) {
 .logo {
-    height: 45px;
+    height: 40px;
 }
 .container11{
-    height: 400px;
+    height: 1500px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .boks2 {
-    height: 380px;
-    display: flex;
+    height: 1500px;
+    display: grid;
 }
 
 #art1 {
-    height: 360px;
-    margin-right: 10px;
+    height: 460px;
+    margin-right: 0px;
 }
 
 #art2 {
-    height: 360px;
+    height: 460px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 #art3 {
-    height: 360px;
-    margin-left: 10px;
+    height: 460px;
+    margin-left: 0px;
 }
 }
 
@@ -158,29 +158,35 @@ body {
 @media (min-width: 922px) {
 .logo {
     height: 50px;
+    margin: 15px;
 }
+
 .container11{
-    height: 480px;
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .boks2 {
-    height: 450px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 #art1 {
     height: 450px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #art2 {
     height: 450px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #art3 {
     height: 450px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 }
 </style>
